@@ -10,6 +10,12 @@ import BackButton from '../../VariousComponents/backButton';
 import { Form, Col, InputGroup } from 'react-bootstrap';
 import './style.scss';
 
+//   * This file is part of KYODIT front End
+//   * It creates question 6 from the server:
+//   * 1. fetch data from the server through API
+//   * 2. convert data received from server when needed
+//   * 3. create html code to display Question 6
+
 const Response6 = ({
     isLogged,
     handleResponse6,
