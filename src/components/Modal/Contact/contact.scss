@@ -1,0 +1,140 @@
+.modalBackgroundContact {
+    position: relative;
+}
+
+.modalContainerContact {
+    width: 350px;
+    max-width: 100%;
+    max-height: 600px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    position: fixed;
+    right: 0;
+    left: 800px;
+    top: 100px;
+    bottom: auto;
+}
+
+@media screen and (max-width: 4096px) {
+    .modalContainerContact {
+        position: fixed;
+        right: 50%;
+        left: 45%;
+        top: 100px;
+        bottom: auto;
+    }
+}
+
+
+@media screen and (max-width: 2048px) {
+    .modalContainerContact {
+        position: fixed;
+        right: 50%;
+        left: 40%;
+        top: 100px;
+        bottom: auto;
+    }
+}
+
+// For portable 13 and 17"
+@media screen and (max-width: 966px) {
+    .modalContainerContact {
+        position: fixed;
+        right: 50%;
+        left: 35%;
+        top: 100px;
+        bottom: auto;
+    }
+}
+
+@media only screen and (min-width: 655px) and (max-width: 799px) {
+    .modalContainerContact {
+        position: fixed;
+        right: 50%;
+        left: 35%;
+        top: 100px;
+        bottom: auto;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 654px) {
+    .modalContainerContact {
+        position: fixed;
+        right: 100px;
+        left: auto;
+        top: 100px;
+        bottom: auto;
+    }
+}
+
+@media only screen and (max-width: 499px) {
+    .modalContainerContact {
+        position: fixed;
+        right: 50%;
+        left: 5%;
+        top: 100px;
+        bottom: auto;
+    }
+}
+
+.titleCloseBtn {
+    margin-bottom: 7px;
+
+    .btn-out {
+        background-color: transparent;
+        border: none;
+        font-size: 14px;
+        text-align: end;
+        margin: 0px;
+    }
+
+    .title-close {
+        font-size: 19px;
+        text-align: center;
+        color: #E74A7F;
+        font-weight: 500;
+        text-align: left;
+        margin: 0px;
+    }
+}
+
+.modalContainerContact .body-contact {
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.modalContainerContact .footer-login-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.modalContainerContact .footer-login-contact button {
+    width: 200px;
+    border: none;
+    background-color: #E74A7F;
+    color: white;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+h6 {
+    text-align: left;
+}
+
+.infoContact {
+    margin: auto;
+    font-size: 0.5em;
+    width: 100%;
+    min-height: 80px;
+}

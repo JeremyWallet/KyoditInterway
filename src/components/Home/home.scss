@@ -1,0 +1,157 @@
+.homepage-main {
+    max-width: 100%;
+    min-height: 100vh;
+
+    .part-one {
+        text-align: left;
+        min-height: 470px;
+
+        .image-part-one {
+            background-repeat: no-repeat;
+            background-size: 100%;
+            position: static;
+            height: 470px;
+        }
+
+        .part-innov {
+            color: #461257;
+            max-width: 40%;
+            margin-left: 15%;
+            padding-top: 50px;
+        }
+
+        @media (max-width: 1024px) {
+            .part-innov {
+                max-width: 100%;
+                text-align: center;
+                margin-left: 0px;
+            }
+        }
+
+        .title {
+            font-size: 3.2em;
+            font-weight: bold;
+        }
+
+        .text-innov {
+            padding-top: 20px;
+            font-size: 1.8em;
+        }
+
+        //Button for the contact of the Home part
+        @media (max-width: 1024px) {
+            .home-contact {
+                max-width: 100%;
+            }
+        }
+
+        .openModalBtnContact {
+            font-size: 24px;
+            font-family: "Poppins", Helvetica, Arial, sans-serif;
+            font-weight: 700;
+            min-height: 80px;
+            line-height: 1;
+            position: relative;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            display: inline-block;
+            margin-top: 20px;
+            padding: 25px 50px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none !important;
+            text-transform: uppercase;
+            color: #fff;
+            border: none;
+            outline: 0;
+            border-radius: 50px;
+            min-width: 360px;
+            background-image: linear-gradient(to right, #f47253, #e03694);
+            appearance: none;
+            -webkit-transition: all 0.4s ease;
+            -moz-transition: all 0.4s ease;
+            -ms-transition: all 0.4s ease;
+            transition: all 0.4s ease;
+        }
+
+        .registration-success {
+            background-image: linear-gradient(to right, #f47253, #e03694);
+            color: white;
+            text-align: center;
+            height: 50px;
+            font-size: 1.6rem;
+        }
+    }
+
+    .part-two {
+        background-size: 100%;
+        padding: 20px;
+        margin-bottom: 20px;
+
+        .ecf {
+            max-width: 70%;
+            margin: auto;
+
+            .title {
+                font-size: 2.5em;
+            }
+
+            p {
+                font-size: 1.5em;
+            }
+        }
+
+        @media (max-width: 1024px) {
+            .ecf {
+                max-width: 100%;
+                text-align: center;
+            }
+        }
+    }
+
+    .part-three {
+        background-color: white;
+        color: black;
+        // margin-bottom: 20px;
+        text-align: left;
+
+        div {
+            @media (max-width: 1280px) {
+                .test {
+                    text-align: left;
+                }
+            }
+
+            img {
+                max-width: 63px;
+                max-height: 63px;
+                float: left;
+
+                margin-right: 5PX;
+            }
+
+            @media (max-width: 1024px) {
+
+                .part-power,
+                .part-simple,
+                .part-report {
+                    padding-top: 15px;
+                }
+            }
+
+            h3 {
+                overflow: hidden;
+            }
+
+            .text-fast-report {
+                padding-top: 25px;
+            }
+
+            @media (max-width: 1024px) {
+                .text-fast-report {
+                    padding-top: 25px;
+                }
+            }
+        }
+    }
+}

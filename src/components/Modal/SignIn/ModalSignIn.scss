@@ -1,0 +1,180 @@
+.modal-background-signIn {
+    position: relative;
+
+    .modal-container-signIn {
+        width: 400px;
+        height: auto;
+        border-radius: 12px;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        position: fixed;
+        right: 0;
+        left: 800px;
+        top: 80px;
+        bottom: auto;
+
+    }
+
+    @media screen and (max-width: 4096px) {
+        .modal-container-signIn {
+            position: fixed;
+            right: 50%;
+            left: 45%;
+            top: 100px;
+            bottom: auto;
+        }
+    }
+
+    @media screen and (max-width: 2048px) {
+        .modal-container-signIn {
+            position: fixed;
+            right: 50%;
+            left: 40%;
+            top: 100px;
+            bottom: auto;
+        }
+    }
+
+    // For portable 13 and 17"
+    @media screen and (max-width: 966px) {
+        .modal-container-signIn {
+            position: fixed;
+            right: 50%;
+            left: 35%;
+            top: 100px;
+            bottom: auto;
+        }
+    }
+
+    @media only screen and (min-width: 655px) and (max-width: 799px) {
+        .modal-container-signIn {
+            position: fixed;
+            right: 50%;
+            left: 35%;
+            top: 100px;
+            bottom: auto;
+        }
+    }
+
+    @media only screen and (min-width: 500px) and (max-width: 654px) {
+        .modal-container-signIn {
+            position: fixed;
+            right: 100px;
+            left: auto;
+            top: 100px;
+            bottom: auto;
+        }
+    }
+
+    @media only screen and (max-width: 499px) {
+        .modal-container-signIn {
+            position: fixed;
+            right: 50%;
+            left: 5%;
+            top: 100px;
+            bottom: auto;
+        }
+    }
+
+    .input-signin {
+        color: black;
+        font-size: 18px;
+        margin: 10px 0px;
+        outline: none;
+        border: none;
+        border-radius: 0px;
+        border-bottom: 1px solid #E74A7F;
+        background: transparent !important;
+        height: 100%;
+        width: 100%;
+    }
+
+    select {
+        font-size: 18px;
+        color: black;
+        margin-top: 10px;
+        outline: none;
+        border: none;
+        border-radius: 0px;
+        border-bottom: 1px solid #E74A7F;
+        background: transparent !important;
+        height: 100%;
+        width: 100%;
+    }
+
+    .cgu-signIn-label {
+        margin: 15px 0px;
+        text-align: left;
+        font-size: 16px;
+        color: grey;
+    }
+
+    .title-close-btn {
+        margin-bottom: 7px;
+
+        .btn-out {
+            background-color: transparent;
+            border: none;
+            font-size: 14px;
+            text-align: end;
+            margin: 0px;
+        }
+
+        .title-close {
+            font-size: 19px;
+            text-align: center;
+            // color: #108cc0;
+            color: #371553;
+            font-weight: 500;
+            text-align: left;
+            margin: 0px;
+        }
+    }
+
+    // .input-signIn {
+    //     border: none;
+    //     border-bottom: 1px #E74A7F;
+    // }
+
+    .login-form-element {
+        justify-content: center;
+        align-items: center;
+        font-size: 1.7rem;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    // .modal-container-signIn .footer-login {
+    //     display: flex;
+    //     justify-content: center;
+    //     align-items: center;
+    //     padding-bottom: 30px;
+    // }
+
+    .modal-container-signIn .footer-logi-signIn button {
+        width: 200px;
+        height: 45px;
+        border: none;
+        background-color: #E74A7F;
+        color: white;
+        border-radius: 50px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    // Error handling
+    .error-email,
+    .error-lenght-password,
+    .error-role,
+    .error-unique-email {
+        background-color: red;
+        color: white;
+        font-size: 1.1rem;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+}
